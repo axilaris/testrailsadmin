@@ -1,0 +1,17 @@
+An example for Rails Admin and devise
+------------------------------------
+
+Here's the simple commands for you to setup
+
+bundle install
+rake db:migrate
+rake db:seed
+rails g rails_admin:install
+
+localhost:3000 (normal webpage)
+localhost:3000/admin (admin webpage)
+
+username: user@example.com 
+password: changeme
+
+
