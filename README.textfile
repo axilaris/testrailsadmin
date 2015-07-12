@@ -14,4 +14,5 @@ localhost:3000/admin (admin webpage)
 username: user@example.com 
 password: changeme
 
-
+for more info on how to install rails admin - see 10:13
+https://www.youtube.com/watch?v=agzm_O-pZFE
