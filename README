@@ -7,6 +7,7 @@ bundle install
 rake db:migrate
 rake db:seed
 rails g rails_admin:install
+rails s
 
 localhost:3000 (normal webpage)
 localhost:3000/admin (admin webpage)
