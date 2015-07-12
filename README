@@ -1,58 +1,18 @@
-Rails Devise
-========================
+An example for Rails Admin and devise
+------------------------------------
 
-This application was generated with the rails_apps_composer gem:
-https://github.com/RailsApps/rails_apps_composer
-provided by the RailsApps Project:
-http://railsapps.github.io/
+Here's the simple commands for you to setup
 
-________________________
+bundle install
+rake db:migrate
+rake db:seed
+rails g rails_admin:install
 
-Recipes:
+localhost:3000 (normal webpage)
+localhost:3000/admin (admin webpage)
 
-* apps4
-* controllers
-* core
-* email
-* extras
-* frontend
-* gems
-* git
-* init
-* models
-* prelaunch
-* railsapps
-* readme
-* routes
-* saas
-* setup
-* testing
-* views
+username: user@example.com 
+password: changeme
 
-Preferences:
-
-* git: true
-* apps4: rails-devise
-* unit_test: false
-* integration: false
-* fixtures: false
-* authentication: devise
-* authorization: false
-* starter_app: false
-* quiet_assets: true
-* local_env_file: false
-* better_errors: true
-* dev_webserver: webrick
-* prod_webserver: same
-* database: sqlite
-* templates: erb
-* continuous_testing: none
-* frontend: simple
-* email: gmail
-* devise_modules: default
-* form_builder: none
-* rvmrc: true
-
-________________________
-
-License
+for more info on how to install rails admin - see 10:13
+https://www.youtube.com/watch?v=agzm_O-pZFE
